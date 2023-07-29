@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/kaspy/.config/old-autostart-scripts/startup_apps.sh
+Icon=dialog-scripts
+Name=startup_apps.sh
+Path=
+Type=Application
+X-KDE-AutostartScript=true
