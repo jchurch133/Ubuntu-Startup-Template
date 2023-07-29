@@ -57,6 +57,12 @@ delayed_login_loop() {
     done
 }
 
+
+
+#Functions below this line are the ones that need to be ran after login
+
+
+
 # Function to simulate pressing the "play" button in Spotify (identify and focus spotify window, press spacebar)
 simulate_play_button() {
     spotify_window_id=$(xdotool search --onlyvisible --name "Spotify")
