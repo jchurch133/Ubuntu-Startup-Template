@@ -12,7 +12,7 @@ main() {
     set_spotify_volume
     set_default_volume_back
     launch_google_chrome
-    open_sound_volume_control
+    open_audio_controls
 }
 
 # Function to launch VSCode
@@ -91,8 +91,8 @@ launch_google_chrome() {
     sleep 2
 }
 
-# Function to open the sound volume control (using a manually created shortcut in Kubuntu Linux)
-open_sound_volume_control() {
+# Function to open the audio controls (using a manually created shortcut in Kubuntu Linux)
+open_audio_controls() {
     xdotool key Escape keydown Super_L key v keyup Super_L
 }
 
